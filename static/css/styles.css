@@ -1,0 +1,22 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+	font-family:'Nunito', sans-serif;  
+}
+
+h1, h3{
+	padding:0.2em 0.5em;
+}
+
+hr{
+    width:80%;
+}
+
+.btn{
+	margin:0.5em;
+}
+
+.result-img{
+	margin: 0 auto;
+}
