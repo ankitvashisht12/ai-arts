@@ -6,9 +6,9 @@ from werkzeug.utils import secure_filename
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
 
 app = Flask(__name__)
-app.config["CLIENT_STYLE_IMG"] = "static/imgs/styled_imgs/"
-app.config["CLIENT_IMG"] = "static/imgs/user_imgs/"
-app.config["CHECKPOINT"]  ="checkpoints/"
+app.config["CLIENT_STYLE_IMG"] = "https://ai-arts-styles.herokuapp.com/static/imgs/styled_imgs/"
+app.config["CLIENT_IMG"] = "https://ai-arts-styles.herokuapp.com/static/imgs/user_imgs/"
+app.config["CHECKPOINT"]  ="https://ai-arts-styles.herokuapp.com/checkpoints/"
 
 
 def allowed_file(filename):
