@@ -41,11 +41,11 @@ def result():
         checkpoint_path = os.path.join(app.config["CHECKPOINT"], checkpoint+'.ckpt')
     
 
-        for file_name in os.listdir(app.config["CLIENT_IMG"]):
-            os.remove(os.path.join(app.config["CLIENT_IMG"], file_name))
+        # for file_name in os.listdir(app.config["CLIENT_IMG"]):
+        #     os.remove(os.path.join(app.config["CLIENT_IMG"], file_name))
 
-        for file_name in os.listdir(app.config["CLIENT_STYLE_IMG"]):
-            os.remove(os.path.join(app.config["CLIENT_STYLE_IMG"], file_name))
+        # for file_name in os.listdir(app.config["CLIENT_STYLE_IMG"]):
+        #     os.remove(os.path.join(app.config["CLIENT_STYLE_IMG"], file_name))
 
         img.save(img_path)
 
