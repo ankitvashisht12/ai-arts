@@ -27,7 +27,7 @@ oauthlib==3.1.0
 opt-einsum==3.3.0
 Pillow==7.2.0
 proglog==0.1.9
-protobuf==3.12.4
+protobuf==3.15.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 requests==2.24.0
